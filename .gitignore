@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+node_modules/
+dist/
+.env
+server/.venv/
+server/__pycache__/
+server/*.json
+!server/package.json
+!server/package-lock.json
